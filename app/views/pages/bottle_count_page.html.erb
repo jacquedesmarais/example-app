@@ -1,0 +1,8 @@
+<h2> 
+<% 99.times do %>
+  <%= @bottles %> bottles of beer on the wall, <%= @bottles %> of beer, take one down, pass it around <%= @bottles_next %> bottles of beer on the wall. <br>
+  <% @bottles -= 1 %>
+  <% @bottles_next -= 1 %>
+<% end %>
+<h2>Sorry, no more beer, so I guess you should go buy more...</h2>
+  </h2>

@@ -1,0 +1,4 @@
+<h1>Here are your lottery numbers: </h1>
+<% 6.times do %>
+  <ul> <%= @winning_numbers[rand(0...6)] %></ul>
+<% end %>
